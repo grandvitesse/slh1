@@ -4,7 +4,7 @@ document.getElementById("passwordForm").addEventListener("submit", function(even
   var password = document.getElementById("password").value;
 
   // Check if the password is correct
-  if (password === "yourpassword") {
+  if (password === "saleha") {
     document.getElementById("letter").style.display = "block"; // Show the letter
   } else {
     alert("Incorrect password. Please try again."); // Show an alert for incorrect password
